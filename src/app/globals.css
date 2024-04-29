@@ -7,5 +7,24 @@
 @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-green-500
 hover:text-white;
 }
+.navbar__link:hover {
+color: #ff8f9c;
+transition: all 0.4s;   {/*delte the 0.4s if don't want the line under*/}
+}
+.navbar__link::after{
+position: absolute;
+content: "";
+background-color: #ff8f9c;
+height: 3px;
+width: 100%;
+bottom: -5px;
+left: 0;
+scale: 0;
+transform-origin: left;
+transition: all 0.4s;
+}
+.navbar__link:hover::after{
+    scale: 1;
+}
 }
 
