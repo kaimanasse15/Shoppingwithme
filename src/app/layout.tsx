@@ -25,6 +25,7 @@ export default function RootLayout({
         <HeaderTop/>
         <HeaderMain/>
         <Navbar/>
+        
         {children}
         </body>
     </html>
