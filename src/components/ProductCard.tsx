@@ -63,10 +63,10 @@ const ProductCard: React.FC<PropsType> = ({
                                 return(
                                     <div className="flex gap-1 text-[20px] text-[#FF9529]">
                                         <AiFillStar/>
-                                        <AiOutlineStar/>
-                                        <AiOutlineStar/>
-                                        <AiOutlineStar/>
-                                        <AiOutlineStar/>
+                                        <AiFillStar/>
+                                        <AiFillStar/>
+                                        <AiFillStar/>
+                                        <AiFillStar/>
                                     </div>
                                 );
                                 case 6:

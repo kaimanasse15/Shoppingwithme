@@ -25,7 +25,8 @@ const Testimonial = () => {
             alt="quotes"
             />
             <p className="max-w-[200px] text-gray-500">
-                Hi
+            I am Kai Manasse, the CEO and Founder of ShoppingWithME. I have been using this AI Assistant for 
+            a while now and I am impressed with its capabilities.
             </p>
             </div>    
 
